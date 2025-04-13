@@ -1,22 +1,25 @@
-# 3D Object Detection and Tracking Illusion 🎨🤖
+# 3D Object Detection and Tracking Illusion 🎨💻
 
-✨ **Description:**  
+## Description
+
 This Python project implements a real-time 3D object detection and tracking system using a webcam, Pygame, and OpenGL. It detects and tracks a person's face in 3D space and renders a 3D object (a chair and a shelf) that moves to create an illusion.
 
-🚀 **Features:**
+### Key Features
 - Real-time face detection
 - Dynamic rendering of 3D objects based on detected positions
 - Support for multiple detection methods (face, mask)
 - Customizable scene setup
 
-🛠️ **Installation:**  
+## Installation
+
 To run this project, you need Python installed on your system. Additionally, install the required dependencies using pip:
 
 ```sh
 pip install pygame opencv-python numpy
 ```
 
-📦 **Usage:**  
+## Usage
+
 ### Running the Script
 
 To execute the script, use the following command in your terminal:
@@ -42,15 +45,10 @@ For real-time mask-based 3D object tracking:
 python main.py mask
 ```
 
-🔧 **Configuration:**  
-No specific configuration options or environment variables are required at this time. The script assumes default settings which can be overridden by command line arguments.
+## Project Structure
 
-🧪 **Tests:**  
-Testing is not available for this project at the moment.
-
-📁 **Project Structure:**
 ```
-3D-Object-Detection-and-Tracking-Illusion/
+.
 ├── Meshes/
 │   ├── ChairMesh.py
 │   ├── Mesh.py
@@ -61,12 +59,15 @@ Testing is not available for this project at the moment.
 └── mask.py
 ```
 
-🙌 **Contributing:**  
+- **Meshes/**: Contains mesh files for rendering.
+- **Textures/**: Stores texture images used in the project.
+- **main.py**: Main script that initializes Pygame, OpenGL, and handles the rendering loop.
+- **mask.py**: Script for detecting cars using computer vision techniques.
+
+## Contributing
+
 Contributions are welcome! Please fork the repository and submit a pull request with your changes. Make sure to include tests if applicable.
 
-📄 **License:**  
+## License
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Built with ❤️ by [gag3301v] 🌐
